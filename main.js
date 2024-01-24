@@ -15,7 +15,7 @@ function ToggleDetail(e) {
 function onFormSubmit(e) {
     e.preventDefault()
     const email = $("#inp_email")
-    const subject = $("#inp_subjrct")
+    const subject = $("#inp_subject")
     const message =$("#inp_message")
 
     if(!$(email).val()) {
