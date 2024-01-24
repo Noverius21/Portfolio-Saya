@@ -41,6 +41,10 @@ section::before {
     color: rgb(122, 122, 146);
 } 
 
+.home.img {
+    width: 100%;
+}
+
 .home.arrow.img{
     width: 60px;
 }
@@ -126,6 +130,35 @@ section::before {
     content: 'UI/UX Design';
 }
 
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 750;
+}
+
+@media only screen and (max-width:768px) {
+    .home.img {
+        width:50%
+    }    
+}
+
+@media only screen and (max-width:576px) {
+    section::before {
+        left: -10px;
+        font-size: 64px;
+    }
+}
 
 @keyframes upDown {
     0% {
